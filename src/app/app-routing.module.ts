@@ -51,15 +51,25 @@ export class AppRoutingModule { }
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
+/* This is to connect the pages
+  {
+  path: 'cv',
+    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)}
+];*/
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule'},
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
-  {
-  path: 'cv',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)}
+  { path: 'cv', loadChildren: './tabs/tabs.module#TabsPageModule' },
+
+  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' }
 ];
+
+
+
+
+
 
 @NgModule({
   imports: [

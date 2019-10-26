@@ -20,9 +20,11 @@ title: 'Contact',
 url: '/contact',
 icon: 'call'
 },
+
+/* I want to go to the tabs page but it doesn't work*/
 {
   title: 'CV',
-  url: '/cv',
+  url: '/tabs/cv',
   icon: 'document'
   }
 ];
