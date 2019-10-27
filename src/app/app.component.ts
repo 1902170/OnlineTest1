@@ -7,7 +7,8 @@ selector: 'app-root',
 templateUrl: 'app.component.html'
 })
 export class AppComponent {
- // Adding code here
+
+ // Here are all pages added which are shown in the side menu.
 
 public appPage = [
 {
@@ -21,7 +22,8 @@ url: '/contact',
 icon: 'call'
 },
 
-/* I want to go to the tabs page but it doesn't work*/
+/* The URL is not cv this time because I want to go directly to the tabs
+page to have all my tabs there. */
 {
   title: 'CV',
   url: '/tabs',
@@ -29,7 +31,6 @@ icon: 'call'
   }
 ];
 
- // until here
 constructor(
 private platform: Platform,
 private splashScreen: SplashScreen,

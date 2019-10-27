@@ -1,3 +1,4 @@
+<!-- This is the header with a toolbar. -->
 <ion-header>
   <ion-toolbar>
       <ion-buttons slot="start">
@@ -7,25 +8,33 @@
   </ion-toolbar>
 </ion-header>
 
+<!-- Every page starts with a ion-list with a small icon 
+  and a second title which is alwys taged as h1.
+Corresponding code can be found at: app.component.html  -->
+
 <ion-content>
     <ion-list>
-       
         <ion-item>
         <ion-icon name="contact" slot="start"></ion-icon>
-       <h1>About me</h1> 
+        <h1>About me</h1> 
         </ion-item>
-        </ion-list>
+    </ion-list>
 
-        <figure>
+ <!-- From here each site is individual.
+About page starts with a picture. 
+Then another titel, and then a div with all my text. -->   
+
+  <figure>
             <img src="/assets/img/iris_Bewerbungsfoto.jpg" alt="Photo">
-          </figure>
-     <h1>My passion and focus is e-learning!</h1>
+  </figure>
+  
+  <h1>My passion and focus is e-learning!</h1>
      
-     <div id="id1">
-        
-        <p>
-My name is Iris Albrecht. I recently graduated from university of applied science in Karlsruhe, So I have a bachelor’s degree in communication and media management now.
+<div id="id1">
+<p>My name is Iris Albrecht. I recently graduated from university of applied science in Karlsruhe, So I have a bachelor’s degree in communication and media management now.
 I’m currently looking for a job in the e-Learning sector. </p>
+
+<!-- This is a unordered list with bullet points. -->
 
 <ul>
   <li>I worked in this branch for one and a half year during my studies. I am an experienced user of the authoring tool Adobe Captivate.</li>
@@ -33,13 +42,14 @@ I’m currently looking for a job in the e-Learning sector. </p>
   <li>I learned a lot of theory about online learning methods and I was also able to create several online learning modules and make them available on the learning platform Moodle.</li>
 </ul>
 
-
 <p>The topic "learning with digital media" really fascinates me and I think my studies have prepared me perfectly for a job as a e-learning author.</p>
+
 <ul>
   <li>I’m good at the professional use of language and I have various IT skills.</li>
   <li>I gained extensive knowledge in illustration and visualization techniques. </li>
   <li>I’m a creative person and love to work with the Adobe Cloud Tools! </li>
 </ul> 	
+
 <p>For 7 years I have been working as a professional face painter for various agencies in the area of Stuttgart that shows that I'm focused and reliable and that I can stay calm in stressful situations. 
 In my free time I'm interested in mobile App and website development. </p>
 <p>Last year I created a website for a friend of the family. I also did the corporate design for the company of my uncle. 
@@ -50,9 +60,10 @@ I am ambitious and I see the position as a e-learning author as a welcome challe
 I look forward to new tasks.</p>
 <p>I will be happy to supply any other details you may require. Please contact me. 
 </p>
-
-
 </div>
+
+<!-- This is a button which goes directly to the contact page -->
+
 <ion-content class="padding">
     <ion-button routerLink="/contact" routerDirection="'root'">CONTACT</ion-button>
 </ion-content>

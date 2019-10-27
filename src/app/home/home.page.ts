@@ -8,6 +8,8 @@ import { AboutPage } from '../about/about.page';
   styleUrls: ['home.page.scss'],
 })
 
+/* You have to define your input as a string. */
+
 export class HomePage {
 
   username: string;
@@ -15,7 +17,8 @@ export class HomePage {
 
   constructor(public navCtrl: NavController) {}
 
-
+/* With console.log you can check with the browser what is typed in.
+navigateFormward is to go to the page "about". This is the new "start page". */
 
 login() {
   console.log(this.username);
@@ -23,5 +26,4 @@ login() {
 
   this.navCtrl.navigateForward('about');
 }
-
 }
