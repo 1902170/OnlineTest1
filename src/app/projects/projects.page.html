@@ -1,3 +1,4 @@
+<!-- This is the header with a toolbar. -->
 <ion-header>
   <ion-toolbar>
       <ion-buttons slot="start">
@@ -7,21 +8,23 @@
   </ion-toolbar>
 </ion-header>
 
+<!-- Every page starts with a ion-list with a small icon 
+  and a second title which is alwys taged as h1.
+Corresponding code can be found at: app.component.html  -->
 <ion-content>
     <ion-list>
         <ion-item>
         <ion-icon name="apps" slot="start"></ion-icon>
  <h1>My Projects</h1>
         </ion-item>
-        
 
-        <div id="id1">
-            <p>
-              Here can you see some of my projects.
-            </p>
-            
-          
-                  </div>
+  <!-- From here each site is individual. 
+    On this page there is a list with images, videos and text -->       
+
+<div id="id1">
+ <p> Here can you see some of my projects.</p>
+ </div>
+
 <ion-item>
   <p>
     Information graphic for a license model
@@ -37,8 +40,6 @@
          <video src="assets/video/vid1.mp4">
         </video>
           </ion-item>
-
-   
 
     <ion-item>
       <p>Corporate Design "Sandtner"

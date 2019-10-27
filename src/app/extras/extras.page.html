@@ -1,3 +1,4 @@
+<!-- This is the header with a toolbar. -->
 <ion-header>
   <ion-toolbar>
           <ion-buttons slot="start">
@@ -6,13 +7,17 @@
     <ion-title>Extra curriculum activities</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<!-- Every page starts with a ion-list with a small icon 
+  and a second title which is alwys taged as h1.
+Corresponding code can be found at: app.component.html  -->
 <ion-content>
     <ion-list>
         <ion-item>
         <ion-icon name="checkbox" slot="start"></ion-icon>
         <h1>Some of my activities</h1>
         </ion-item>
+<!-- From here each site is individual.
+extras page contains ion-items with icons and text. --> 
         <ion-item><ion-icon name="checkmark"></ion-icon>
           <p>
               Professional facepainter for various agencies in Stuttgart and Karlsruhe (since 2012)

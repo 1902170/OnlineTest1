@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
+// This part manages the routes/ the connections between the sites
+// if you called the page tabs then there are three options and each path is connected with one page
+
 const routes: Routes = [
   {
     path: 'tabs',
@@ -37,6 +40,8 @@ const routes: Routes = [
           }
         ]
       },
+
+      // the first tab is the CV tab, therefore the path is empty and it's redirected to tabs/cv
       {
         path: '',
         redirectTo: '/tabs/cv',

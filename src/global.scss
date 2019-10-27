@@ -25,11 +25,12 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
+// This ensures that there is space at the left and the right side (from div to site)
 #id1 { margin-bottom: 80px;
     margin-left: 20px;
     margin-right: 20px; }
 
+// This are the style attributes for the first title
 h1 {
         font-size: 30px;
         font-weight:normal;
@@ -41,6 +42,8 @@ h1 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+// All texts which are taged with p and ul have the same font and color
+// line-height is for the space between the lines
 p, ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 16px;
@@ -48,7 +51,7 @@ color: darkslategray;
 line-height: 1.5;}
 
 
-
+// this changes the colour of the toolbar on every page
   ion-toolbar {
     --background: rgb(54, 179, 202);
   }
