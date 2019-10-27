@@ -38,7 +38,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'cv',
+        path: '',
         redirectTo: '/tabs/cv',
         pathMatch: 'full'
       }
@@ -46,7 +46,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'cv',
+    path: '',
     redirectTo: '/tabs/cv',
     pathMatch: 'full'
 

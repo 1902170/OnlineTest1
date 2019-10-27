@@ -24,7 +24,7 @@ icon: 'call'
 /* I want to go to the tabs page but it doesn't work*/
 {
   title: 'CV',
-  url: '/tabs/cv',
+  url: '/cv',
   icon: 'document'
   }
 ];
