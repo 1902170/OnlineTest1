@@ -37,7 +37,7 @@ h1 {
         overflow:visible;
         padding:0px;
         text-align:center;
-        color:brown;
+        color: rgb(0, 183, 255);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -46,3 +46,9 @@ p, ul {
 font-size: 16px;
 color: darkslategray;
 line-height: 1.5;}
+
+
+
+  ion-toolbar {
+    --background: rgb(54, 179, 202);
+  }
