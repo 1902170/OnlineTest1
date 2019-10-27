@@ -24,3 +24,25 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+#id1 { margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px; }
+
+h1 {
+        font-size: 30px;
+        font-weight:normal;
+        margin:0px;
+        overflow:visible;
+        padding:0px;
+        text-align:center;
+        color:brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;
+color: darkslategray;
+line-height: 1.5;}
