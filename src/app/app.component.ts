@@ -35,7 +35,13 @@ page to have all my tabs there. */
   title: 'CV',
   url: '/tabs',
   icon: 'document'
-  }
+  },
+
+  {
+    title: 'Skills',
+    url: '/skills',
+    icon: 'options'
+    },
 ];
 
 constructor(
@@ -56,9 +62,12 @@ this.splashScreen.hide();
 
 }
 
+/*
+
 signOut() {
   // log out current user
   this.userService.logout();
 }
 
+*/
 }
