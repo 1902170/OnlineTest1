@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
   {  path: '', loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)},
+  { path: 'logout', loadChildren: './logout/logout.module#LogoutPageModule' },
  ];
 @NgModule({
   imports: [

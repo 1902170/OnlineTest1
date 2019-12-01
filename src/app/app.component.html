@@ -15,6 +15,16 @@
                 <ion-label>{{p.title}}</ion-label>
                 </ion-item>
                 </ion-menu-toggle>
+<!-- new -->
+
+<ion-menu-toggle>
+  <ion-item (click)="signOut()" class="ion-activatable">
+    <ion-icon slot="start" name="exit"></ion-icon>
+    <ion-label>Sign out</ion-label>
+  </ion-item>
+</ion-menu-toggle>
+
+<!-- ende new-->
                 </ion-list>
             </ion-content> 
             </ion-menu>
